@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2021-04-28T21:18:47" name="AllTests">
+  <testsuite name="CERT_FormatNameUnitTest" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2021-04-28T21:18:47">
+    <testcase name="Overflow" status="run" result="completed" time="0" timestamp="2021-04-28T21:18:47" classname="CERT_FormatNameUnitTest" />
+  </testsuite>
+</testsuites>

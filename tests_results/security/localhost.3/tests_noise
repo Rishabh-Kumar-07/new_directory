@@ -1,0 +1,411 @@
+F S UID          PID    PPID  C PRI  NI ADDR SZ WCHAN  STIME TTY          TIME CMD
+4 S root           1       0  0  80   0 - 41026 -      10:32 ?        00:00:29 /sbin/init
+1 S root           2       0  0  80   0 -     0 -      10:32 ?        00:00:00 [kthreadd]
+1 I root           3       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [rcu_gp]
+1 I root           4       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [rcu_par_gp]
+1 I root           6       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [kworker/0:0H-events_highpri]
+1 I root           9       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [mm_percpu_wq]
+1 S root          10       2  0  80   0 -     0 -      10:32 ?        00:00:02 [ksoftirqd/0]
+1 I root          11       2  0  80   0 -     0 -      10:32 ?        00:00:37 [rcu_sched]
+1 S root          12       2  0 -40   - -     0 -      10:32 ?        00:00:00 [migration/0]
+1 S root          13       2  0  80   0 -     0 -      10:32 ?        00:00:00 [cpuhp/0]
+5 S root          14       2  0  80   0 -     0 -      10:32 ?        00:00:00 [cpuhp/1]
+1 S root          15       2  0 -40   - -     0 -      10:32 ?        00:00:00 [migration/1]
+1 S root          16       2  0  80   0 -     0 -      10:32 ?        00:00:01 [ksoftirqd/1]
+1 I root          18       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [kworker/1:0H-events_highpri]
+5 S root          19       2  0  80   0 -     0 -      10:32 ?        00:00:00 [cpuhp/2]
+1 S root          20       2  0 -40   - -     0 -      10:32 ?        00:00:00 [migration/2]
+1 S root          21       2  0  80   0 -     0 -      10:32 ?        00:00:01 [ksoftirqd/2]
+1 I root          23       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [kworker/2:0H]
+5 S root          24       2  0  80   0 -     0 -      10:32 ?        00:00:00 [cpuhp/3]
+1 S root          25       2  0 -40   - -     0 -      10:32 ?        00:00:00 [migration/3]
+1 S root          26       2  0  80   0 -     0 -      10:32 ?        00:00:01 [ksoftirqd/3]
+1 I root          28       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [kworker/3:0H-kblockd]
+5 S root          30       2  0  80   0 -     0 -      10:32 ?        00:00:00 [kdevtmpfs]
+1 I root          31       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [netns]
+1 S root          32       2  0  80   0 -     0 -      10:32 ?        00:00:00 [kauditd]
+1 S root          34       2  0  80   0 -     0 -      10:32 ?        00:00:00 [khungtaskd]
+1 S root          35       2  0  80   0 -     0 -      10:32 ?        00:00:00 [oom_reaper]
+1 I root          36       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [writeback]
+1 S root          37       2  0  80   0 -     0 -      10:32 ?        00:00:00 [kcompactd0]
+1 S root          38       2  0  85   5 -     0 -      10:32 ?        00:00:00 [ksmd]
+1 S root          39       2  0  99  19 -     0 -      10:32 ?        00:00:01 [khugepaged]
+1 I root          58       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [kintegrityd]
+1 I root          59       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [kblockd]
+1 I root          60       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [blkcg_punt_bio]
+1 I root          63       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [edac-poller]
+1 I root          64       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [devfreq_wq]
+1 S root          65       2  0  80   0 -     0 -      10:32 ?        00:00:13 [kswapd0]
+1 I root          66       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [kthrotld]
+1 S root          67       2  0   9   - -     0 -      10:32 ?        00:00:00 [irq/40-pciehp]
+1 I root          68       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [acpi_thermal_pm]
+1 I root          70       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [ipv6_addrconf]
+1 I root          79       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [kstrp]
+1 I root          82       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [zswap-shrink]
+1 I root          83       2  0  60 -20 -     0 -      10:32 ?        00:01:10 [kworker/u9:0-i915_flip]
+1 I root         132       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [ata_sff]
+1 I root         133       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [cryptd]
+1 S root         145       2  0  80   0 -     0 -      10:32 ?        00:00:00 [scsi_eh_0]
+1 I root         146       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [scsi_tmf_0]
+1 S root         147       2  0  80   0 -     0 -      10:32 ?        00:00:00 [scsi_eh_1]
+1 I root         148       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [scsi_tmf_1]
+1 S root         150       2  0  80   0 -     0 -      10:32 ?        00:00:00 [scsi_eh_2]
+1 I root         151       2  0  60 -20 -     0 -      10:32 ?        00:00:00 [scsi_tmf_2]
+1 S root         158       2  0   9   - -     0 -      10:32 ?        00:00:50 [irq/39-ELAN0501]
+1 I root         194       2  0  60 -20 -     0 -      10:32 ?        00:00:03 [kworker/0:1H-kblockd]
+1 I root         197       2  0  60 -20 -     0 -      10:32 ?        00:00:02 [kworker/3:1H-kblockd]
+1 I root         198       2  0  60 -20 -     0 -      10:32 ?        00:00:01 [kworker/1:1H-events_highpri]
+1 I root         203       2  0  60 -20 -     0 -      10:32 ?        00:00:02 [kworker/2:1H-events_highpri]
+1 S root         262       2  0  80   0 -     0 -      10:34 ?        00:00:04 [jbd2/sda1-8]
+1 I root         263       2  0  60 -20 -     0 -      10:34 ?        00:00:00 [ext4-rsv-conver]
+4 S root         324       1  0  80   0 - 19315 -      10:34 ?        00:00:07 /lib/systemd/systemd-journald
+4 S root         348       1  0  80   0 -  6083 -      10:34 ?        00:00:27 /lib/systemd/systemd-udevd
+1 S root         352       2  0  60 -20 -     0 -      10:34 ?        00:00:00 [loop0]
+1 S root         353       2  0  60 -20 -     0 -      10:34 ?        00:00:00 [loop1]
+1 S root         355       2  0  60 -20 -     0 -      10:34 ?        00:00:00 [loop2]
+1 S root         401       2  0 -40   - -     0 -      10:34 ?        00:00:00 [watchdogd]
+1 I root         430       2  0  60 -20 -     0 -      10:34 ?        00:00:00 [cfg80211]
+1 I root         490       2  0  60 -20 -     0 -      10:34 ?        00:00:00 [ath10k_wq]
+1 I root         491       2  0  60 -20 -     0 -      10:34 ?        00:00:00 [ath10k_aux_wq]
+1 I root         577       2  0  60 -20 -     0 -      10:34 ?        00:00:00 [kmemstick]
+5 S root         664       1  0  80   0 -  2385 -      10:34 ?        00:00:00 /sbin/dhclient -4 -v -i -pf /run/dhclient.br0.pid -lf /var/lib/dhcp/dhclient.br0.leases -I -df /var/lib/dhcp/dhclient6.br0.leases br0
+4 S root         665       1  0  80   0 -  2026 -      10:34 ?        00:00:01 /usr/sbin/haveged --Foreground --verbose=1
+4 S root         733       1  0  80   0 - 59238 -      10:35 ?        00:00:01 /usr/libexec/accounts-daemon
+4 S root         735       1  0  80   0 -  3207 -      10:35 ?        00:00:00 /usr/libexec/bluetooth/bluetoothd
+4 S root         736       1  0  80   0 -  1634 -      10:35 ?        00:00:00 /usr/sbin/cron -f
+4 S message+     737       1  0  80   0 -  2581 -      10:35 ?        00:01:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+4 S root         738       1  0  80   0 - 64190 -      10:35 ?        00:01:14 /usr/sbin/NetworkManager --no-daemon
+4 S root         739       1  0  80   0 - 59584 -      10:35 ?        00:00:02 /usr/libexec/polkitd --no-debug
+4 S root         741       1  0  80   0 - 55677 -      10:35 ?        00:00:01 /usr/sbin/rsyslogd -n -iNONE
+4 S root         742       1  0  80   0 -  2837 -      10:35 ?        00:00:00 /usr/sbin/smartd -n
+4 S root         745       1  0  80   0 - 77105 -      10:35 ?        00:00:02 /lib/systemd/systemd-logind
+4 S root         797       1  0  80   0 - 78661 -      10:35 ?        00:00:00 /usr/sbin/ModemManager
+4 S root         808       1  0  80   0 - 29441 -      10:35 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+4 S root         828       1  0  80   0 - 59841 -      10:35 ?        00:00:00 /usr/sbin/gdm3
+4 S root         829       1  0  80   0 -  3225 -      10:35 ?        00:00:00 /usr/sbin/sshd -D
+4 S rtkit        874       1  0  81   1 - 38405 -      10:35 ?        00:00:00 /usr/libexec/rtkit-daemon
+4 S root         906       1  0  80   0 -  3743 -      10:35 ?        00:00:19 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+4 S root         947       1  0  80   0 - 98447 -      10:36 ?        00:00:05 /usr/libexec/udisks2/udisksd
+5 S root        1038       2  0  70 -10 -     0 -      10:36 ?        00:00:00 [krfcommd]
+4 S root        1278       1  0  80   0 - 70809 -      10:36 ?        00:00:00 /usr/libexec/packagekitd
+4 S colord      1403       1  0  80   0 - 61107 -      10:36 ?        00:00:01 /usr/libexec/colord
+4 S root        1438     828  0  80   0 - 77972 -      10:38 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+4 S rishabh     1442       1  0  80   0 -  3923 -      10:38 ?        00:00:01 /lib/systemd/systemd --user
+5 S rishabh     1443    1442  0  80   0 - 41268 -      10:38 ?        00:00:00 (sd-pam)
+0 S rishabh     1463    1442  0  80   0 - 24805 -      10:38 ?        00:00:00 /usr/bin/pipewire
+0 S rishabh     1464    1442  0  69 -11 - 501045 -     10:38 ?        00:00:07 /usr/bin/pulseaudio --daemonize=no
+0 R rishabh     1466    1442  2  99   - - 313110 -     10:38 ?        00:19:10 /usr/libexec/tracker-miner-fs
+0 S rishabh     1468    1442  0  80   0 -  2234 -      10:38 ?        00:00:06 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+0 S rishabh     1474    1463  0  80   0 - 23282 -      10:38 ?        00:00:00 /usr/bin/pipewire-media-session
+1 S rishabh     1477       1  0  80   0 - 59291 -      10:38 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+0 S rishabh     1492    1442  0  80   0 - 59207 -      10:38 ?        00:00:00 /usr/libexec/gvfsd
+0 S rishabh     1498    1442  0  80   0 - 87220 -      10:38 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+0 S rishabh     1503    1442  0  80   0 - 58177 -      10:38 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+0 S rishabh     1507    1442  0  80   0 - 63161 -      10:38 ?        00:00:07 /usr/libexec/gvfs-gphoto2-volume-monitor
+0 S rishabh     1511    1442  0  80   0 - 58224 -      10:38 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+0 S rishabh     1515    1442  0  80   0 - 141686 -     10:38 ?        00:00:00 /usr/libexec/goa-daemon
+4 S rishabh     1519    1438  0  80   0 - 40479 -      10:38 tty2     00:00:00 /usr/libexec/gdm-x-session --run-script /usr/bin/gnome-session
+4 S rishabh     1526    1519  2  80   0 - 201774 -     10:38 tty2     00:17:35 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1001/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+0 S rishabh     1528    1442  0  80   0 - 77936 -      10:38 ?        00:00:00 /usr/libexec/goa-identity-service
+0 S rishabh     1555    1519  0  80   0 - 74955 -      10:38 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd
+1 S rishabh     1641    1555  0  80   0 -  1479 -      10:38 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch /usr/bin/gnome-session
+0 S rishabh     1665    1442  0  80   0 - 76783 -      10:38 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+0 S rishabh     1670    1665  0  80   0 -  1948 -      10:38 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+0 S rishabh     1681    1442  0  80   0 - 21991 -      10:39 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+0 S rishabh     1685    1442  0  80   0 - 130421 -     10:39 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+0 S rishabh     1710    1442  1  80   0 - 1170063 -    10:39 ?        00:13:32 /usr/bin/gnome-shell
+0 S rishabh     1727    1710  0  80   0 - 96202 -      10:39 ?        00:00:09 ibus-daemon --panel disable --xim
+0 S rishabh     1729    1442  0  80   0 - 153220 -     10:39 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+0 S rishabh     1730    1442  0  80   0 - 58155 -      10:39 ?        00:00:00 /usr/libexec/xdg-permission-store
+0 S rishabh     1739    1727  0  80   0 - 39932 -      10:39 ?        00:00:00 /usr/libexec/ibus-memconf
+0 S rishabh     1740    1727  0  80   0 - 68946 -      10:39 ?        00:00:02 /usr/libexec/ibus-extension-gtk3
+0 S rishabh     1742    1442  0  80   0 - 49398 -      10:39 ?        00:00:04 /usr/libexec/ibus-x11 --kill-daemon
+0 S rishabh     1744    1442  0  80   0 - 58350 -      10:39 ?        00:00:00 /usr/libexec/ibus-portal
+0 S rishabh     1757    1442  0  80   0 - 41903 -      10:39 ?        00:00:07 /usr/libexec/at-spi2-registryd --use-gnome-session
+4 S geoclue     1760       1  0  80   0 - 225175 -     10:39 ?        00:01:03 /usr/libexec/geoclue
+0 S rishabh     1770    1442  0  80   0 - 243695 -     10:39 ?        00:00:00 /usr/libexec/evolution-source-registry
+0 S rishabh     1777    1442  0  80   0 - 684447 -     10:39 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+0 S rishabh     1786    1442  0  80   0 - 76661 -      10:39 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+0 S rishabh     1787    1442  0  80   0 - 169510 -     10:39 ?        00:00:02 /usr/libexec/gsd-color
+0 S rishabh     1788    1442  0  80   0 - 116764 -     10:39 ?        00:00:01 /usr/libexec/gsd-datetime
+0 S rishabh     1789    1442  0  80   0 - 77223 -      10:39 ?        00:00:00 /usr/libexec/gsd-housekeeping
+0 S rishabh     1792    1442  0  80   0 - 104640 -     10:39 ?        00:00:00 /usr/libexec/gsd-keyboard
+0 S rishabh     1794    1442  0  80   0 - 216689 -     10:39 ?        00:00:03 /usr/libexec/gsd-media-keys
+0 S rishabh     1796    1442  0  80   0 - 179505 -     10:39 ?        00:00:06 /usr/libexec/gsd-power
+0 S rishabh     1797    1685  0  80   0 - 183027 -     10:39 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+0 S rishabh     1798    1442  0  80   0 - 79990 -      10:39 ?        00:00:00 /usr/libexec/gsd-print-notifications
+0 S rishabh     1799    1442  0  80   0 - 113525 -     10:39 ?        00:00:00 /usr/libexec/gsd-rfkill
+0 S rishabh     1800    1442  0  80   0 - 58133 -      10:39 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+0 S rishabh     1801    1442  0  80   0 - 115647 -     10:39 ?        00:00:12 /usr/libexec/gsd-sharing
+0 S rishabh     1805    1685  0  80   0 - 57924 -      10:39 ?        00:00:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+0 S rishabh     1807    1442  0  80   0 - 96510 -      10:39 ?        00:00:00 /usr/libexec/gsd-smartcard
+0 S rishabh     1809    1442  0  80   0 - 79776 -      10:39 ?        00:00:00 /usr/libexec/gsd-sound
+0 S rishabh     1810    1442  0  80   0 - 95473 -      10:39 ?        00:00:00 /usr/libexec/gsd-usb-protection
+0 S rishabh     1812    1442  0  80   0 - 86270 -      10:39 ?        00:00:00 /usr/libexec/gsd-wacom
+0 S rishabh     1822    1442  0  80   0 - 86633 -      10:39 ?        00:00:00 /usr/libexec/gsd-xsettings
+0 S rishabh     1826    1685  0  80   0 - 110468 -     10:39 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+0 S rishabh     1860    1442  0  80   0 - 86659 -      10:39 ?        00:00:00 /usr/libexec/gsd-printer
+0 S rishabh     1916    1727  0  80   0 - 39930 -      10:39 ?        00:00:02 /usr/libexec/ibus-engine-simple
+0 S rishabh     1928    1442  0  80   0 - 661004 -     10:39 ?        00:00:40 /usr/share/skypeforlinux/skypeforlinux --executed-from=/rishabh --pid=1835
+0 S rishabh     1950    1442  0  80   0 - 218634 -     10:39 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+0 S rishabh     1952    1442  0  80   0 - 39044 -      10:39 ?        00:00:00 /usr/libexec/dconf-service
+0 S rishabh     1987    1442  0  80   0 - 193341 -     10:39 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+4 S rishabh     1995    1928  0  80   0 -   690 -      10:39 ?        00:00:00 /usr/share/skypeforlinux/chrome-sandbox /usr/share/skypeforlinux/skypeforlinux --type=zygote --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9
+4 S rishabh     1996    1995  0  80   0 - 49588 -      10:39 ?        00:00:00 /usr/share/skypeforlinux/skypeforlinux --type=zygote --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9
+1 S rishabh     2008    1996  0  80   0 - 49588 -      10:39 ?        00:00:00 /usr/share/skypeforlinux/skypeforlinux --type=zygote --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9
+0 S rishabh     2041    1442  0  80   0 - 91788 -      10:39 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-tray
+0 S rishabh     2043    1442  0  80   0 - 11242 -      10:39 ?        00:00:00 /usr/libexec/bluetooth/obexd
+0 S rishabh     2075    1928  0  80   0 - 240664 -     10:39 ?        00:00:01 /proc/self/exe --type=gpu-process --field-trial-handle=2447772436111492404,6219964847783063550,131072 --enable-features=WebComponentsV0Enabled --disable-features=PictureInPicture,SpareRendererForSitePerProcess --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9 --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --shared-files
+0 S rishabh     2082    1928  0  80   0 - 160989 -     10:39 ?        00:00:01 /usr/share/skypeforlinux/skypeforlinux --type=utility --field-trial-handle=2447772436111492404,6219964847783063550,131072 --enable-features=WebComponentsV0Enabled --disable-features=PictureInPicture,SpareRendererForSitePerProcess --lang=en-GB --service-sandbox-type=network --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9 --shared-files=v8_snapshot_data:100
+0 S rishabh     2104    1928  0  80   0 - 411539 -     10:39 ?        00:00:05 /usr/share/skypeforlinux/skypeforlinux --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --ms-disable-indexeddb-transaction-timeout --field-trial-handle=2447772436111492404,6219964847783063550,131072 --enable-features=WebComponentsV0Enabled --disable-features=PictureInPicture,SpareRendererForSitePerProcess --lang=en-GB --app-path=/usr/share/skypeforlinux/resources/app.asar --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/usr/share/skypeforlinux/resources/app.asar/preload.js --background-color=#fff --node-integration-in-subframes --enable-spellcheck --enable-websql --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --skype-process-type=Main --skype-window-id=__MAIN_ROOT_VIEW_ID__
+0 S rishabh     2248    1442  0  80   0 - 39949 -      10:40 ?        00:00:05 /usr/libexec/gvfsd-metadata
+0 S rishabh     2311    1492  0  80   0 - 77708 -      10:40 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+0 S rishabh     2466    1710  2  80   0 - 936461 -     10:46 ?        00:18:39 /usr/lib/firefox-esr/firefox-esr
+0 S rishabh     2479    1442  0  80   0 - 202698 -     10:46 ?        00:00:12 /usr/bin/nautilus --gapplication-service
+0 S rishabh     2603    2466  1  80   0 - 848413 -     10:46 ?        00:12:02 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 160 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+0 S rishabh     2635    2466  0  80   0 - 653859 -     10:46 ?        00:00:44 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 6130 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+0 S rishabh     2685    2466  0  80   0 - 643134 -     10:46 ?        00:00:16 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 6194 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+0 S rishabh     3550    1710  0  80   0 -   603 -      12:25 ?        00:00:00 /bin/sh /rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/bin/idea.sh
+0 S rishabh     3592    3550  3  80   0 - 1241982 -    12:25 ?        00:22:17 /rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/jbr/bin/java -classpath /rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/lib/bootstrap.jar:/rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/lib/extensions.jar:/rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/lib/util.jar:/rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/lib/jdom.jar:/rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/lib/log4j.jar:/rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/lib/jna.jar:/rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/jbr/lib/tools.jar -Xms128m -Xmx986m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/rishabh/java_error_in_idea_%p.log -XX:HeapDumpPath=/rishabh/java_error_in_idea_.hprof -Didea.vendor.name=JetBrains -Didea.paths.selector=IdeaIC2020.3 -Djb.vmOptionsFile=/rishabh/.config/JetBrains/IdeaIC2020.3/idea64.vmoptions -Didea.platform.prefix=Idea -Didea.jre.check=true com.intellij.idea.Main
+0 S rishabh     3653    3592  0  80   0 -   936 -      12:26 ?        00:00:05 /rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/bin/fsnotifier64
+0 S rishabh     5913    2466  0  80   0 - 657388 -     13:50 ?        00:01:44 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 7 -isForBrowser -prefsLen 9537 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+0 S rishabh     6058    2466  0  80   0 - 640672 -     13:50 ?        00:01:10 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 9537 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+0 S rishabh    10363    2466  0  80   0 - 655504 -     14:07 ?        00:01:14 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 9537 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+0 S rishabh    10394    2466  0  80   0 - 712160 -     14:07 ?        00:01:26 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 12 -isForBrowser -prefsLen 9537 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+0 S rishabh    10619    2466  0  80   0 - 721002 -     14:12 ?        00:02:32 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 14 -isForBrowser -prefsLen 9537 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+1 I root       36025       2  0  60 -20 -     0 -      14:40 ?        00:00:00 [kworker/u9:2-hci0]
+1 S root       36083       2  0   9   - -     0 -      17:03 ?        00:00:00 [irq/47-mei_me]
+0 S rishabh    38122    1442  0  80   0 - 140829 -     17:48 ?        00:02:09 /usr/libexec/gnome-terminal-server
+0 S rishabh    38129   38122  0  80   0 -  3177 -      17:48 pts/0    00:00:01 bash
+0 S rishabh    46700    1442 16  80   0 - 108542 -     17:57 ?        00:48:32 /usr/libexec/tracker-store
+0 S rishabh    52283    2466  0  80   0 - 657859 -     18:40 ?        00:01:09 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 18 -isForBrowser -prefsLen 9613 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+0 S rishabh    61562   38122  0  80   0 -  3177 -      19:02 pts/1    00:00:00 bash
+0 S rishabh    83262    2466  0  80   0 - 630046 -     20:42 ?        00:00:21 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 20 -isForBrowser -prefsLen 9613 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+1 I root       95066       2  0  80   0 -     0 -      20:51 ?        00:00:06 [kworker/u8:2-events_unbound]
+0 S rishabh   110159   38122  0  80   0 -  3177 -      21:07 pts/2    00:00:00 bash
+1 I root      128051       2  0  80   0 -     0 -      21:30 ?        00:00:04 [kworker/u8:1-events_unbound]
+0 S rishabh   164916    1492  0  80   0 - 69250 -      22:02 ?        00:00:00 /usr/libexec/gvfsd-http --spawner :1.5 /org/gtk/gvfs/exec_spaw/12
+1 I root      171419       2  0  80   0 -     0 -      22:14 ?        00:00:01 [kworker/0:2-events]
+1 I root      172025       2  0  80   0 -     0 -      22:16 ?        00:00:00 [kworker/2:1-events]
+1 I root      177027       2  0  80   0 -     0 -      22:18 ?        00:00:01 [kworker/u8:4-events_unbound]
+1 I root      178808       2  0  80   0 -     0 -      22:22 ?        00:00:00 [kworker/1:2-events]
+1 I root      180059       2  0  80   0 -     0 -      22:25 ?        00:00:00 [kworker/3:0-events]
+1 I root      182502       2  0  80   0 -     0 -      22:30 ?        00:00:00 [kworker/3:2-events]
+1 I root      183577       2  0  80   0 -     0 -      22:33 ?        00:00:01 [kworker/u8:5-events_unbound]
+1 I root      184052       2  0  80   0 -     0 -      22:34 ?        00:00:00 [kworker/2:3-events]
+4 S root      184709       1  0  80   0 - 62822 -      22:35 ?        00:00:01 /usr/libexec/upowerd
+0 S rishabh   186112    1442  0  80   0 - 78834 -      22:40 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+1 I root      190412       2  0  80   0 -     0 -      22:42 ?        00:00:01 [kworker/0:1-events]
+1 I root      190478       2  0  80   0 -     0 -      22:42 ?        00:00:00 [kworker/1:0-events]
+1 I root      190895       2  0  80   0 -     0 -      22:44 ?        00:00:00 [kworker/u8:0-i915]
+1 I root      190896       2  0  80   0 -     0 -      22:44 ?        00:00:00 [kworker/u8:3-i915]
+1 I root      190897       2  0  80   0 -     0 -      22:44 ?        00:00:00 [kworker/u8:6-i915]
+1 I root      191737       2  0  80   0 -     0 -      22:47 ?        00:00:00 [kworker/0:0-events_power_efficient]
+0 S rishabh   191774   38129  1  80   0 -  1813 -      22:48 pts/0    00:00:00 /bin/bash ./gtests.sh
+0 R rishabh   191884  191774  0  80   0 -  2375 -      22:48 pts/0    00:00:00 ps -efl
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 164104  4484 ?        Ss   10:32   0:29 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    10:32   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   10:32   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   10:32   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   10:32   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   10:32   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    10:32   0:02 [ksoftirqd/0]
+root          11  0.0  0.0      0     0 ?        I    10:32   0:37 [rcu_sched]
+root          12  0.0  0.0      0     0 ?        S    10:32   0:00 [migration/0]
+root          13  0.0  0.0      0     0 ?        S    10:32   0:00 [cpuhp/0]
+root          14  0.0  0.0      0     0 ?        S    10:32   0:00 [cpuhp/1]
+root          15  0.0  0.0      0     0 ?        S    10:32   0:00 [migration/1]
+root          16  0.0  0.0      0     0 ?        S    10:32   0:01 [ksoftirqd/1]
+root          18  0.0  0.0      0     0 ?        I<   10:32   0:00 [kworker/1:0H-events_highpri]
+root          19  0.0  0.0      0     0 ?        S    10:32   0:00 [cpuhp/2]
+root          20  0.0  0.0      0     0 ?        S    10:32   0:00 [migration/2]
+root          21  0.0  0.0      0     0 ?        S    10:32   0:01 [ksoftirqd/2]
+root          23  0.0  0.0      0     0 ?        I<   10:32   0:00 [kworker/2:0H]
+root          24  0.0  0.0      0     0 ?        S    10:32   0:00 [cpuhp/3]
+root          25  0.0  0.0      0     0 ?        S    10:32   0:00 [migration/3]
+root          26  0.0  0.0      0     0 ?        S    10:32   0:01 [ksoftirqd/3]
+root          28  0.0  0.0      0     0 ?        I<   10:32   0:00 [kworker/3:0H-kblockd]
+root          30  0.0  0.0      0     0 ?        S    10:32   0:00 [kdevtmpfs]
+root          31  0.0  0.0      0     0 ?        I<   10:32   0:00 [netns]
+root          32  0.0  0.0      0     0 ?        S    10:32   0:00 [kauditd]
+root          34  0.0  0.0      0     0 ?        S    10:32   0:00 [khungtaskd]
+root          35  0.0  0.0      0     0 ?        S    10:32   0:00 [oom_reaper]
+root          36  0.0  0.0      0     0 ?        I<   10:32   0:00 [writeback]
+root          37  0.0  0.0      0     0 ?        S    10:32   0:00 [kcompactd0]
+root          38  0.0  0.0      0     0 ?        SN   10:32   0:00 [ksmd]
+root          39  0.0  0.0      0     0 ?        SN   10:32   0:01 [khugepaged]
+root          58  0.0  0.0      0     0 ?        I<   10:32   0:00 [kintegrityd]
+root          59  0.0  0.0      0     0 ?        I<   10:32   0:00 [kblockd]
+root          60  0.0  0.0      0     0 ?        I<   10:32   0:00 [blkcg_punt_bio]
+root          63  0.0  0.0      0     0 ?        I<   10:32   0:00 [edac-poller]
+root          64  0.0  0.0      0     0 ?        I<   10:32   0:00 [devfreq_wq]
+root          65  0.0  0.0      0     0 ?        S    10:32   0:13 [kswapd0]
+root          66  0.0  0.0      0     0 ?        I<   10:32   0:00 [kthrotld]
+root          67  0.0  0.0      0     0 ?        S    10:32   0:00 [irq/40-pciehp]
+root          68  0.0  0.0      0     0 ?        I<   10:32   0:00 [acpi_thermal_pm]
+root          70  0.0  0.0      0     0 ?        I<   10:32   0:00 [ipv6_addrconf]
+root          79  0.0  0.0      0     0 ?        I<   10:32   0:00 [kstrp]
+root          82  0.0  0.0      0     0 ?        I<   10:32   0:00 [zswap-shrink]
+root          83  0.1  0.0      0     0 ?        I<   10:32   1:10 [kworker/u9:0-i915_flip]
+root         132  0.0  0.0      0     0 ?        I<   10:32   0:00 [ata_sff]
+root         133  0.0  0.0      0     0 ?        I<   10:32   0:00 [cryptd]
+root         145  0.0  0.0      0     0 ?        S    10:32   0:00 [scsi_eh_0]
+root         146  0.0  0.0      0     0 ?        I<   10:32   0:00 [scsi_tmf_0]
+root         147  0.0  0.0      0     0 ?        S    10:32   0:00 [scsi_eh_1]
+root         148  0.0  0.0      0     0 ?        I<   10:32   0:00 [scsi_tmf_1]
+root         150  0.0  0.0      0     0 ?        S    10:32   0:00 [scsi_eh_2]
+root         151  0.0  0.0      0     0 ?        I<   10:32   0:00 [scsi_tmf_2]
+root         158  0.1  0.0      0     0 ?        S    10:32   0:50 [irq/39-ELAN0501]
+root         194  0.0  0.0      0     0 ?        I<   10:32   0:03 [kworker/0:1H-kblockd]
+root         197  0.0  0.0      0     0 ?        I<   10:32   0:02 [kworker/3:1H-kblockd]
+root         198  0.0  0.0      0     0 ?        I<   10:32   0:01 [kworker/1:1H-events_highpri]
+root         203  0.0  0.0      0     0 ?        I<   10:32   0:02 [kworker/2:1H-events_highpri]
+root         262  0.0  0.0      0     0 ?        S    10:34   0:04 [jbd2/sda1-8]
+root         263  0.0  0.0      0     0 ?        I<   10:34   0:00 [ext4-rsv-conver]
+root         324  0.0  0.2  77260 19784 ?        Ss   10:34   0:07 /lib/systemd/systemd-journald
+root         348  0.0  0.0  24332  4972 ?        Ss   10:34   0:27 /lib/systemd/systemd-udevd
+root         352  0.0  0.0      0     0 ?        S<   10:34   0:00 [loop0]
+root         353  0.0  0.0      0     0 ?        S<   10:34   0:00 [loop1]
+root         355  0.0  0.0      0     0 ?        S<   10:34   0:00 [loop2]
+root         401  0.0  0.0      0     0 ?        S    10:34   0:00 [watchdogd]
+root         430  0.0  0.0      0     0 ?        I<   10:34   0:00 [cfg80211]
+root         490  0.0  0.0      0     0 ?        I<   10:34   0:00 [ath10k_wq]
+root         491  0.0  0.0      0     0 ?        I<   10:34   0:00 [ath10k_aux_wq]
+root         577  0.0  0.0      0     0 ?        I<   10:34   0:00 [kmemstick]
+root         664  0.0  0.0   9540  2856 ?        Ss   10:34   0:00 /sbin/dhclient -4 -v -i -pf /run/dhclient.br0.pid -lf /var/lib/dhcp/dhclient.br0.leases -I -df /var/lib/dhcp/dhclient6.br0.leases br0
+root         665  0.0  0.0   8104  3204 ?        Ss   10:34   0:01 /usr/sbin/haveged --Foreground --verbose=1
+root         733  0.0  0.0 236952  1700 ?        Ssl  10:35   0:01 /usr/libexec/accounts-daemon
+root         735  0.0  0.0  12828  1092 ?        Ss   10:35   0:00 /usr/libexec/bluetooth/bluetoothd
+root         736  0.0  0.0   6536  1136 ?        Ss   10:35   0:00 /usr/sbin/cron -f
+message+     737  0.1  0.0  10324  3844 ?        Ss   10:35   1:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         738  0.1  0.0 256760  4896 ?        Ssl  10:35   1:14 /usr/sbin/NetworkManager --no-daemon
+root         739  0.0  0.0 238336  4484 ?        Ssl  10:35   0:02 /usr/libexec/polkitd --no-debug
+root         741  0.0  0.0 222708  1480 ?        Ssl  10:35   0:01 /usr/sbin/rsyslogd -n -iNONE
+root         742  0.0  0.0  11348  1396 ?        Ss   10:35   0:00 /usr/sbin/smartd -n
+root         745  0.0  0.0 308420  2116 ?        Ss   10:35   0:02 /lib/systemd/systemd-logind
+root         797  0.0  0.0 314644  2916 ?        Ssl  10:35   0:00 /usr/sbin/ModemManager
+root         808  0.0  0.1 117764  8980 ?        Ssl  10:35   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         828  0.0  0.0 239364  1144 ?        Ssl  10:35   0:00 /usr/sbin/gdm3
+root         829  0.0  0.0  12900   844 ?        Ss   10:35   0:00 /usr/sbin/sshd -D
+rtkit        874  0.0  0.0 153620   256 ?        SNsl 10:35   0:00 /usr/libexec/rtkit-daemon
+root         906  0.0  0.0  14972  2732 ?        Ss   10:35   0:19 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root         947  0.0  0.0 393788  3240 ?        Ssl  10:36   0:05 /usr/libexec/udisks2/udisksd
+root        1038  0.0  0.0      0     0 ?        S<   10:36   0:00 [krfcommd]
+root        1278  0.0  0.0 283236  2940 ?        Ssl  10:36   0:00 /usr/libexec/packagekitd
+colord      1403  0.0  0.1 244428  9912 ?        Ssl  10:36   0:01 /usr/libexec/colord
+root        1438  0.0  0.0 311888  2196 ?        Sl   10:38   0:00 gdm-session-worker [pam/gdm-password]
+rishabh     1442  0.0  0.0  15692  5348 ?        Ss   10:38   0:01 /lib/systemd/systemd --user
+rishabh     1443  0.0  0.0 165072  2896 ?        S    10:38   0:00 (sd-pam)
+rishabh     1463  0.0  0.0  99220  2136 ?        Ssl  10:38   0:00 /usr/bin/pipewire
+rishabh     1464  0.0  0.1 2004180 12412 ?       S<sl 10:38   0:07 /usr/bin/pulseaudio --daemonize=no
+rishabh     1466  2.6  2.0 1252440 166856 ?      SNsl 10:38  19:10 /usr/libexec/tracker-miner-fs
+rishabh     1468  0.0  0.0   8936  3016 ?        Ss   10:38   0:06 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+rishabh     1474  0.0  0.0  93128  1552 ?        Sl   10:38   0:00 /usr/bin/pipewire-media-session
+rishabh     1477  0.0  0.0 237164  1208 ?        Sl   10:38   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+rishabh     1492  0.0  0.0 236828  3416 ?        Ssl  10:38   0:00 /usr/libexec/gvfsd
+rishabh     1498  0.0  0.0 348880  2852 ?        Ssl  10:38   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+rishabh     1503  0.0  0.0 232708  1092 ?        Ssl  10:38   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+rishabh     1507  0.0  0.1 252644 13620 ?        Ssl  10:38   0:07 /usr/libexec/gvfs-gphoto2-volume-monitor
+rishabh     1511  0.0  0.0 232896  2176 ?        Ssl  10:38   0:00 /usr/libexec/gvfs-goa-volume-monitor
+rishabh     1515  0.0  0.0 566744  5964 ?        Sl   10:38   0:00 /usr/libexec/goa-daemon
+rishabh     1519  0.0  0.0 161916   644 tty2     Ssl+ 10:38   0:00 /usr/libexec/gdm-x-session --run-script /usr/bin/gnome-session
+rishabh     1526  2.4  1.1 807096 90376 tty2     Sl+  10:38  17:35 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1001/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+rishabh     1528  0.0  0.0 311744  1052 ?        Sl   10:38   0:00 /usr/libexec/goa-identity-service
+rishabh     1555  0.0  0.0 299820  1920 tty2     Sl+  10:38   0:00 /usr/libexec/gnome-session-binary --systemd
+rishabh     1641  0.0  0.0   5916   476 ?        Ss   10:38   0:00 /usr/bin/ssh-agent /usr/bin/im-launch /usr/bin/gnome-session
+rishabh     1665  0.0  0.0 307132  2604 ?        Ssl  10:38   0:00 /usr/libexec/at-spi-bus-launcher
+rishabh     1670  0.0  0.0   7792   572 ?        S    10:38   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+rishabh     1681  0.0  0.0  87964   420 ?        Ssl  10:39   0:00 /usr/libexec/gnome-session-ctl --monitor
+rishabh     1685  0.0  0.0 521684  2820 ?        Ssl  10:39   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+rishabh     1710  1.8  2.0 4680252 167124 ?      Ssl  10:39  13:32 /usr/bin/gnome-shell
+rishabh     1727  0.0  0.0 384808  5868 ?        Sl   10:39   0:09 ibus-daemon --panel disable --xim
+rishabh     1729  0.0  0.0 612880  4848 ?        Sl   10:39   0:00 /usr/libexec/gnome-shell-calendar-server
+rishabh     1730  0.0  0.0 232620  2472 ?        Ssl  10:39   0:00 /usr/libexec/xdg-permission-store
+rishabh     1739  0.0  0.0 159728   648 ?        Sl   10:39   0:00 /usr/libexec/ibus-memconf
+rishabh     1740  0.0  0.1 275784 11164 ?        Sl   10:39   0:02 /usr/libexec/ibus-extension-gtk3
+rishabh     1742  0.0  0.0 197592  6448 ?        Sl   10:39   0:04 /usr/libexec/ibus-x11 --kill-daemon
+rishabh     1744  0.0  0.0 233400  2900 ?        Sl   10:39   0:00 /usr/libexec/ibus-portal
+rishabh     1757  0.0  0.0 167612   796 ?        Sl   10:39   0:07 /usr/libexec/at-spi2-registryd --use-gnome-session
+geoclue     1760  0.1  0.1 900700 10648 ?        Ssl  10:39   1:03 /usr/libexec/geoclue
+rishabh     1770  0.0  0.0 974780  4024 ?        Ssl  10:39   0:00 /usr/libexec/evolution-source-registry
+rishabh     1777  0.0  0.0 2737788 5148 ?        Sl   10:39   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+rishabh     1786  0.0  0.0 306644   596 ?        Ssl  10:39   0:00 /usr/libexec/gsd-a11y-settings
+rishabh     1787  0.0  0.1 678040 13404 ?        Ssl  10:39   0:02 /usr/libexec/gsd-color
+rishabh     1788  0.0  0.1 467056 13000 ?        Ssl  10:39   0:01 /usr/libexec/gsd-datetime
+rishabh     1789  0.0  0.0 308892  3340 ?        Ssl  10:39   0:00 /usr/libexec/gsd-housekeeping
+rishabh     1792  0.0  0.0 418560  4804 ?        Ssl  10:39   0:00 /usr/libexec/gsd-keyboard
+rishabh     1794  0.0  0.1 866756  8476 ?        Ssl  10:39   0:03 /usr/libexec/gsd-media-keys
+rishabh     1796  0.0  0.1 718020  8436 ?        Ssl  10:39   0:06 /usr/libexec/gsd-power
+rishabh     1797  0.0  0.1 732108 13700 ?        Sl   10:39   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+rishabh     1798  0.0  0.0 319960  1408 ?        Ssl  10:39   0:00 /usr/libexec/gsd-print-notifications
+rishabh     1799  0.0  0.0 454100   968 ?        Ssl  10:39   0:00 /usr/libexec/gsd-rfkill
+rishabh     1800  0.0  0.0 232532   516 ?        Ssl  10:39   0:00 /usr/libexec/gsd-screensaver-proxy
+rishabh     1801  0.0  0.0 462588  2152 ?        Ssl  10:39   0:12 /usr/libexec/gsd-sharing
+rishabh     1805  0.0  0.0 231696  1132 ?        Sl   10:39   0:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+rishabh     1807  0.0  0.0 386040  3016 ?        Ssl  10:39   0:00 /usr/libexec/gsd-smartcard
+rishabh     1809  0.0  0.0 319104  1020 ?        Ssl  10:39   0:00 /usr/libexec/gsd-sound
+rishabh     1810  0.0  0.0 381892   744 ?        Ssl  10:39   0:00 /usr/libexec/gsd-usb-protection
+rishabh     1812  0.0  0.0 345080  5016 ?        Ssl  10:39   0:00 /usr/libexec/gsd-wacom
+rishabh     1822  0.0  0.0 346532  5308 ?        Ssl  10:39   0:00 /usr/libexec/gsd-xsettings
+rishabh     1826  0.0  0.2 441872 18412 ?        Sl   10:39   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+rishabh     1860  0.0  0.0 346636  1984 ?        Sl   10:39   0:00 /usr/libexec/gsd-printer
+rishabh     1916  0.0  0.0 159720   764 ?        Sl   10:39   0:02 /usr/libexec/ibus-engine-simple
+rishabh     1928  0.0  0.5 2644016 44760 ?       SLl  10:39   0:40 /usr/share/skypeforlinux/skypeforlinux --executed-from=/rishabh --pid=1835
+rishabh     1950  0.0  0.0 874536  4532 ?        Ssl  10:39   0:00 /usr/libexec/evolution-calendar-factory
+rishabh     1952  0.0  0.0 156176  2196 ?        Sl   10:39   0:00 /usr/libexec/dconf-service
+rishabh     1987  0.0  0.0 773364  3892 ?        Ssl  10:39   0:00 /usr/libexec/evolution-addressbook-factory
+rishabh     1995  0.0  0.0   2760   104 ?        S    10:39   0:00 /usr/share/skypeforlinux/chrome-sandbox /usr/share/skypeforlinux/skypeforlinux --type=zygote --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9
+rishabh     1996  0.0  0.0 198352  6700 ?        S    10:39   0:00 /usr/share/skypeforlinux/skypeforlinux --type=zygote --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9
+rishabh     2008  0.0  0.0 198352  6724 ?        S    10:39   0:00 /usr/share/skypeforlinux/skypeforlinux --type=zygote --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9
+rishabh     2041  0.0  0.2 367152 16588 ?        Sl   10:39   0:00 /usr/bin/python3 /usr/bin/blueman-tray
+rishabh     2043  0.0  0.0  44968   652 ?        Ss   10:39   0:00 /usr/libexec/bluetooth/obexd
+rishabh     2075  0.0  0.3 962656 25344 ?        Sl   10:39   0:01 /proc/self/exe --type=gpu-process --field-trial-handle=2447772436111492404,6219964847783063550,131072 --enable-features=WebComponentsV0Enabled --disable-features=PictureInPicture,SpareRendererForSitePerProcess --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9 --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --shared-files
+rishabh     2082  0.0  0.1 643956 12600 ?        Sl   10:39   0:01 /usr/share/skypeforlinux/skypeforlinux --type=utility --field-trial-handle=2447772436111492404,6219964847783063550,131072 --enable-features=WebComponentsV0Enabled --disable-features=PictureInPicture,SpareRendererForSitePerProcess --lang=en-GB --service-sandbox-type=network --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9 --shared-files=v8_snapshot_data:100
+rishabh     2104  0.0  1.0 1646156 84804 ?       Sl   10:39   0:05 /usr/share/skypeforlinux/skypeforlinux --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --ms-disable-indexeddb-transaction-timeout --field-trial-handle=2447772436111492404,6219964847783063550,131072 --enable-features=WebComponentsV0Enabled --disable-features=PictureInPicture,SpareRendererForSitePerProcess --lang=en-GB --app-path=/usr/share/skypeforlinux/resources/app.asar --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/usr/share/skypeforlinux/resources/app.asar/preload.js --background-color=#fff --node-integration-in-subframes --enable-spellcheck --enable-websql --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --skype-process-type=Main --skype-window-id=__MAIN_ROOT_VIEW_ID__
+rishabh     2248  0.0  0.0 159796  2184 ?        Ssl  10:40   0:05 /usr/libexec/gvfsd-metadata
+rishabh     2311  0.0  0.0 310832  1012 ?        Sl   10:40   0:00 /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+rishabh     2466  2.5  4.6 3745844 372308 ?      Sl   10:46  18:39 /usr/lib/firefox-esr/firefox-esr
+rishabh     2479  0.0  1.3 810792 109936 ?       Sl   10:46   0:12 /usr/bin/nautilus --gapplication-service
+rishabh     2603  1.6  7.4 3393652 601904 ?      Sl   10:46  12:02 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 160 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+rishabh     2635  0.1  2.1 2615436 175408 ?      Sl   10:46   0:44 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 6130 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+rishabh     2685  0.0  1.0 2572536 86428 ?       Sl   10:46   0:16 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 4 -isForBrowser -prefsLen 6194 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+rishabh     3550  0.0  0.0   2412   136 ?        S    12:25   0:00 /bin/sh /rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/bin/idea.sh
+rishabh     3592  3.5 16.8 4967928 1362160 ?     Sl   12:25  22:17 /rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/jbr/bin/java -classpath /rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/lib/bootstrap.jar:/rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/lib/extensions.jar:/rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/lib/util.jar:/rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/lib/jdom.jar:/rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/lib/log4j.jar:/rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/lib/jna.jar:/rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/jbr/lib/tools.jar -Xms128m -Xmx986m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/rishabh/java_error_in_idea_%p.log -XX:HeapDumpPath=/rishabh/java_error_in_idea_.hprof -Didea.vendor.name=JetBrains -Didea.paths.selector=IdeaIC2020.3 -Djb.vmOptionsFile=/rishabh/.config/JetBrains/IdeaIC2020.3/idea64.vmoptions -Didea.platform.prefix=Idea -Didea.jre.check=true com.intellij.idea.Main
+rishabh     3653  0.0  0.0   3744  1008 ?        S    12:26   0:05 /rishabh/Downloads/ideaIC-2020.1.3/idea-IC-201.8538.31/bin/fsnotifier64
+rishabh     5913  0.3  2.6 2629552 210236 ?      Sl   13:50   1:44 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 7 -isForBrowser -prefsLen 9537 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+rishabh     6058  0.2  1.5 2562688 129140 ?      Sl   13:50   1:10 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 9 -isForBrowser -prefsLen 9537 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+rishabh    10363  0.2  2.4 2622016 197292 ?      Sl   14:07   1:14 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 11 -isForBrowser -prefsLen 9537 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+rishabh    10394  0.2  2.0 2848640 164356 ?      Sl   14:07   1:26 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 12 -isForBrowser -prefsLen 9537 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+rishabh    10619  0.4  2.0 2884008 168332 ?      Sl   14:12   2:32 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 14 -isForBrowser -prefsLen 9537 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+root       36025  0.0  0.0      0     0 ?        I<   14:40   0:00 [kworker/u9:2-hci0]
+root       36083  0.0  0.0      0     0 ?        S    17:03   0:00 [irq/47-mei_me]
+rishabh    38122  0.7  0.2 563316 24164 ?        Ssl  17:48   2:09 /usr/libexec/gnome-terminal-server
+rishabh    38129  0.0  0.1  12708  8980 pts/0    Ss   17:48   0:01 bash
+rishabh    46700 16.7  0.3 434168 30672 ?        Ssl  17:57  48:32 /usr/libexec/tracker-store
+rishabh    52283  0.4  2.4 2631436 198568 ?      Sl   18:40   1:09 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 18 -isForBrowser -prefsLen 9613 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+rishabh    61562  0.0  0.0  12708  6272 pts/1    Ss+  19:02   0:00 bash
+rishabh    83262  0.2  0.9 2520184 76824 ?       Sl   20:42   0:21 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 20 -isForBrowser -prefsLen 9613 -prefMapSize 225313 -parentBuildID 20201110001500 -appdir /usr/lib/firefox-esr/browser 2466 true tab
+root       95066  0.0  0.0      0     0 ?        I    20:51   0:06 [kworker/u8:2-events_unbound]
+rishabh   110159  0.0  0.0  12708  6172 pts/2    Ss+  21:07   0:00 bash
+root      128051  0.1  0.0      0     0 ?        I    21:30   0:04 [kworker/u8:1-events_unbound]
+rishabh   164916  0.0  0.0 277000  1316 ?        Sl   22:02   0:00 /usr/libexec/gvfsd-http --spawner :1.5 /org/gtk/gvfs/exec_spaw/12
+root      171419  0.0  0.0      0     0 ?        I    22:14   0:01 [kworker/0:2-events]
+root      172025  0.0  0.0      0     0 ?        I    22:16   0:00 [kworker/2:1-events]
+root      177027  0.1  0.0      0     0 ?        I    22:18   0:01 [kworker/u8:4-events_unbound]
+root      178808  0.0  0.0      0     0 ?        I    22:22   0:00 [kworker/1:2-events]
+root      180059  0.0  0.0      0     0 ?        I    22:25   0:00 [kworker/3:0-events]
+root      182502  0.0  0.0      0     0 ?        I    22:30   0:00 [kworker/3:2-events]
+root      183577  0.1  0.0      0     0 ?        I    22:33   0:01 [kworker/u8:5-events_unbound]
+root      184052  0.0  0.0      0     0 ?        I    22:34   0:00 [kworker/2:3-events]
+root      184709  0.1  0.0 251288  6300 ?        Ssl  22:35   0:01 /usr/libexec/upowerd
+rishabh   186112  0.0  0.0 315336  4532 ?        Ssl  22:40   0:00 /usr/libexec/gvfs-afc-volume-monitor
+root      190412  0.3  0.0      0     0 ?        I    22:42   0:01 [kworker/0:1-events]
+root      190478  0.0  0.0      0     0 ?        I    22:42   0:00 [kworker/1:0-events]
+root      190895  0.0  0.0      0     0 ?        I    22:44   0:00 [kworker/u8:0-i915]
+root      190896  0.0  0.0      0     0 ?        I    22:44   0:00 [kworker/u8:3-i915]
+root      190897  0.0  0.0      0     0 ?        I    22:44   0:00 [kworker/u8:6-i915]
+root      191737  0.0  0.0      0     0 ?        I    22:47   0:00 [kworker/0:0-events_power_efficient]
+rishabh   191774  1.0  0.0   7252  3812 pts/0    S+   22:48   0:00 /bin/bash ./gtests.sh
+rishabh   191885  0.0  0.0   9500  3116 pts/0    R+   22:48   0:00 ps aux
+Wednesday 28 April 2021 10:48:05 PM IST

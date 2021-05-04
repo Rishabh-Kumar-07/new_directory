@@ -1,0 +1,6 @@
+********************************************
+   Platform: Debug
+   Results: localhost.2
+********************************************
+
+init.sh init: Testing PATH .:/rishabh/Documents/NSS_Contri/new_directory/dist/Debug/bin:/rishabh/Documents/NSS_Contri/new_directory/dist/Debug/lib:/bin:/usr/bin:/rishabh/.cargo/bin:/rishabh/.local/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/games:/usr/games:/snap/bin against LIB /rishabh/Documents/NSS_Contri/new_directory/dist/Debug/lib:

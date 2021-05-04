@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" time="0.035" timestamp="2021-04-28T22:54:29" name="AllTests">
+  <testsuite name="Sysinit" tests="2" failures="0" disabled="0" errors="0" time="0.035" timestamp="2021-04-28T22:54:29">
+    <testcase name="LegacyPath" status="run" result="completed" time="0" timestamp="2021-04-28T22:54:29" classname="Sysinit" />
+    <testcase name="XdgDefaultPath" status="run" result="completed" time="0.034" timestamp="2021-04-28T22:54:29" classname="Sysinit" />
+  </testsuite>
+  <testsuite name="SysinitSetXdgUserDataHome" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2021-04-28T22:54:29">
+    <testcase name="XdgSetPath" status="run" result="completed" time="0" timestamp="2021-04-28T22:54:29" classname="SysinitSetXdgUserDataHome" />
+  </testsuite>
+  <testsuite name="SysinitSetTrashXdgUserDataHome" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2021-04-28T22:54:29">
+    <testcase name="XdgSetToTrashPath" status="run" result="completed" time="0" timestamp="2021-04-28T22:54:29" classname="SysinitSetTrashXdgUserDataHome" />
+  </testsuite>
+</testsuites>

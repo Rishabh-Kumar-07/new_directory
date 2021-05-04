@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LLVMgold.so">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nss/automation/taskcluster/docker-saw/LLVMgold.so.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

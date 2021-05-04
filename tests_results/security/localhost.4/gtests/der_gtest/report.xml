@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="20" failures="0" disabled="0" errors="0" time="0.009" timestamp="2021-04-29T00:55:09" name="AllTests">
+  <testsuite name="DERIntegerDecodingTest" tests="13" failures="0" disabled="0" errors="0" time="0" timestamp="2021-04-29T00:55:09">
+    <testcase name="DecodeLongMinus126" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+    <testcase name="DecodeLong130" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+    <testcase name="DecodeLong130Padded" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+    <testcase name="DecodeLong0" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+    <testcase name="DecodeLong1" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+    <testcase name="DecodeLongMinus1" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+    <testcase name="DecodeLongMinus1Padded" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+    <testcase name="DecodeLongMax" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+    <testcase name="DecodeLongMin" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+    <testcase name="DecodeLongMaxMinus1" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+    <testcase name="DecodeLongMinPlus1" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+    <testcase name="DecodeLongMinMinus1" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+    <testcase name="DecodeLongMaxPlus1" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="DERIntegerDecodingTest" />
+  </testsuite>
+  <testsuite name="PK12ImportTest" tests="1" failures="0" disabled="0" errors="0" time="0.009" timestamp="2021-04-29T00:55:09">
+    <testcase name="ImportPK12With2P7" status="run" result="completed" time="0.009" timestamp="2021-04-29T00:55:09" classname="PK12ImportTest" />
+  </testsuite>
+  <testsuite name="QuickderTestsInvalidLengths/QuickDERTest" tests="6" failures="0" disabled="0" errors="0" time="0" timestamp="2021-04-29T00:55:09">
+    <testcase name="InvalidLengths/0" value_param="32-byte object &lt;80-33 25-7D B5-55 00-00 00-00 00-00 00-00 00-00 98-8A 28-7D B5-55 00-00 03-00 00-00 00-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="QuickderTestsInvalidLengths/QuickDERTest" />
+    <testcase name="InvalidLengths/1" value_param="32-byte object &lt;80-33 25-7D B5-55 00-00 00-00 00-00 00-00 00-00 9B-8A 28-7D B5-55 00-00 05-00 00-00 00-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="QuickderTestsInvalidLengths/QuickDERTest" />
+    <testcase name="InvalidLengths/2" value_param="32-byte object &lt;80-33 25-7D B5-55 00-00 00-00 00-00 00-00 00-00 A0-8A 28-7D B5-55 00-00 05-00 00-00 00-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="QuickderTestsInvalidLengths/QuickDERTest" />
+    <testcase name="InvalidLengths/3" value_param="32-byte object &lt;C0-33 25-7D B5-55 00-00 00-00 00-00 00-00 00-00 A5-8A 28-7D B5-55 00-00 02-00 00-00 00-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="QuickderTestsInvalidLengths/QuickDERTest" />
+    <testcase name="InvalidLengths/4" value_param="32-byte object &lt;C0-33 25-7D B5-55 00-00 00-00 00-00 00-00 00-00 A7-8A 28-7D B5-55 00-00 03-00 00-00 00-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="QuickderTestsInvalidLengths/QuickDERTest" />
+    <testcase name="InvalidLengths/5" value_param="32-byte object &lt;C0-33 25-7D B5-55 00-00 00-00 00-00 00-00 00-00 B0-8A 28-7D B5-55 00-00 12-00 00-00 00-00 00-00&gt;" status="run" result="completed" time="0" timestamp="2021-04-29T00:55:09" classname="QuickderTestsInvalidLengths/QuickDERTest" />
+  </testsuite>
+</testsuites>

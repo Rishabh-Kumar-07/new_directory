@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="0" disabled="0" errors="0" time="0.001" timestamp="2021-04-28T21:26:15" name="AllTests">
+  <testsuite name="SMimeTest" tests="5" failures="0" disabled="0" errors="0" time="0.001" timestamp="2021-04-28T21:26:15">
+    <testcase name="InvalidDER" status="run" result="completed" time="0" timestamp="2021-04-28T21:26:15" classname="SMimeTest" />
+    <testcase name="IsSignedValid" status="run" result="completed" time="0" timestamp="2021-04-28T21:26:15" classname="SMimeTest" />
+    <testcase name="TruncatedCmsSignature" status="run" result="completed" time="0" timestamp="2021-04-28T21:26:15" classname="SMimeTest" />
+    <testcase name="SlightlyTruncatedCmsSignature" status="run" result="completed" time="0" timestamp="2021-04-28T21:26:15" classname="SMimeTest" />
+    <testcase name="IsSignedNull" status="run" result="completed" time="0" timestamp="2021-04-28T21:26:15" classname="SMimeTest" />
+  </testsuite>
+</testsuites>
